@@ -1,0 +1,3 @@
+[submodule "cv_tex"]
+	path = cv_tex
+	url = https://github.com/bienz2/cv_tex.git
