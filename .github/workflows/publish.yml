@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      #- uses: actions/checkout@main
+      - uses: actions/checkout@main
       - name: Git Submodule Update
         run: |
           git pull --recurse-submodules
