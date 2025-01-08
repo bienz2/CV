@@ -15,8 +15,11 @@ jobs:
           git submodule update --remote --recursive
       - name: List files
         run: |
-          ls
           ls cv_tex
+      - name: CD and List
+        run: |
+          cd cv_tex
+          ls
       #- name: Compile and Deploy
       #  uses: jonhue/pubtex-action@main
       #  with:
